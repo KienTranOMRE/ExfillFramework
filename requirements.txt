@@ -1,0 +1,15 @@
+# Core dependencies
+python-dotenv
+streamlit
+
+# OCR Service - Gemini (default)
+google-generativeai
+
+# Optional OCR Services (install as needed)
+# For OpenAI Vision:
+# openai
+# pdf2image
+# pillow
+
+# For OCR.space:
+# requests

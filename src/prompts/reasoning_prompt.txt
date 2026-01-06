@@ -1,0 +1,42 @@
+You are an expert document analyst. Your task is to determine the final answer for a specific field based on extracted paragraphs from a document.
+
+FIELD INFORMATION:
+Field Name: {field_name}
+Description: {field_description}
+Expected Format: {field_format}
+Example: {field_example}
+
+EXTRACTED PARAGRAPHS:
+{extracted_paragraphs}
+
+INSTRUCTIONS:
+1. Analyze all the extracted paragraphs carefully
+2. Identify the information that matches the field description
+3. Extract the precise value according to the specified format
+4. If multiple values are found, determine the most appropriate one based on the field description
+5. Format the answer exactly as specified in the "Expected Format"
+6. If the information is not found or unclear, indicate this in your response
+
+IMPORTANT CONSIDERATIONS:
+- Follow the exact format specified (e.g., DD/MM/YYYY, currency code + amount, etc.)
+- Pay attention to details in the description (e.g., "extract only date, ignore location")
+- If the example shows a specific pattern, follow that pattern
+- Be precise and extract only what is requested
+- Consider context from all paragraphs before making your final decision
+
+Return your response in STRICTLY VALID JSON format with the following structure:
+{{
+  "field_name": "name of the field",
+  "final_answer": "the extracted and formatted answer, or empty string if not found",
+  "confidence": "high/medium/low",
+  "reasoning": "brief explanation of how you determined this answer",
+  "source_paragraph": "the specific paragraph where you found this information",
+  "alternative_values": ["list of other potential values found, if any"],
+  "notes": "any important observations or ambiguities"
+}}
+
+CRITICAL RULES:
+- Return ONLY valid JSON, no markdown code blocks, no extra text
+- Ensure the final_answer follows the exact format specified
+- If information is not found, set final_answer to empty string ""
+- Be concise but thorough in your reasoning

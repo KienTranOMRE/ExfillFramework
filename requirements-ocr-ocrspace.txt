@@ -1,0 +1,2 @@
+# Dependencies for OCR.space OCR service
+requests

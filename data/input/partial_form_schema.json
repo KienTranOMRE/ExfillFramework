@@ -1,0 +1,32 @@
+{
+    "I.Thông tin thư tín dụng": {
+        "40A: Loại thư tín dụng/Form of Documentary Credit": "<placeholder_1>",
+        "Phương thức phát hành/Issuance mode": "<placeholder_2>",
+        "50: Người yêu cầu phát hành (Tên và địa chỉ)/Applicant (Full name and address)": "<placeholder_3>",
+        "59: Người hưởng lợi (Tên, địa chỉ và quốc gia)/Beneficiary (Full name, address and country)": "<placeholder_4>",
+        "31D: Ngày và nơi hết hạn/ Date and Place of Expiry": "<placeholder_5>",
+        "32B: Loại tiền, số tiền/ Currency code, Amount": "<placeholder_6>",
+        "41D: Có giá trị xuất trình tại/ Available with": "<placeholder_7>",
+        "39A: Dung sai giá trị LC": "<placeholder_8>",
+        "42C: Hối phiếu/ Drafts at": "<placeholder_9>",
+        "43P: Giao hàng từng phần/ Partial shipments": "<placeholder_10>",
+        "43T: Chuyển tải/ Transhipments": "<placeholder_11>",
+        "44A: Địa điểm nhận hàng/Nơi gửi đi/ Place of Taking in Charge / Place of Receipt": "<placeholder_12>",
+        "44B: Vận chuyển đến/Nơi đến/ Place of Final Destination / Place of Delivery": "<placeholder_13>",
+        "44E: Cảng xếp hàng/ Port of loading / Airport of Departure": "<placeholder_14>",
+        "44F: Cảng dỡ hàng/ Port of discharge / Airport of Destination": "<placeholder_15>",
+        "44C: Ngày giao hàng muộn nhất/ The latest Date of Shipment": "<placeholder_16>",
+        "44D: Thời gian giao hàng/ Shipment Period": "<placeholder_17>",
+        "45A: Mô tả hàng hóa/ Description of Goods/Services": "<placeholder_18>",
+        "46A: Chứng từ yêu cầu/ Documents Required": "<placeholder_19>",
+        "47A: Các điều khoản bổ sung/ Additional conditions": "<placeholder_20>",
+        "48: Thời hạn xuất trình/ Period for Presentation": "<placeholder_21>",
+        "78: Điều khoản đặc biệt/ Special Clause": "<placeholder_22>",
+        "49: Xác nhận LC/ Confirmation Instruction": "<placeholder_23>",
+        "57D: Ngân hàng thông báo (Tên và địa chỉ)/ Advising Bank (Full name and address)": "<placeholder_24>",
+        "53A: Ngân hàng hoàn trả (Tên và địa chỉ)/ Reimbursing Bank (Full name and address)": "<placeholder_25>",
+        "Ngân hàng xác nhận (Tên và địa chỉ)/ Confirming Bank (Full name and address)": "<placeholder_26>",
+        "Ngân hàng chuyển nhượng (Tên và địa chỉ)/ Transferring Bank (Full name and address)": "<placeholder_27>",
+        "71B: Phí/ Charges": "<placeholder_28>"
+    }
+}

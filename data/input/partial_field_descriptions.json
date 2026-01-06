@@ -1,0 +1,44 @@
+[
+    {
+        "name": "31D: Ngày và nơi hết hạn/ Date and Place of Expiry",
+        "description": "Ngày hết hạn của thư tín dụng - đây là ngày cuối cùng mà người hưởng lợi có thể xuất trình chứng từ để được thanh toán theo thư tín dụng. Trong hợp đồng, thông tin này có thể được đề cập trong các điều khoản về thanh toán, thời hạn hiệu lực của thư tín dụng, hoặc điều khoản về chứng từ. Tìm kiếm các cụm từ như: 'ngày hết hạn', 'expiry date', 'thời hạn hiệu lực', 'valid until', 'expires on', 'ngày cuối cùng xuất trình', 'last presentation date', 'thời hạn xuất trình chứng từ', hoặc các điều khoản liên quan đến thời hạn thanh toán. Ngày có thể được viết theo các format: DD/MM/YYYY, DD-MM-YYYY, DD.MM.YYYY, hoặc dạng chữ như 'ngày 15 tháng 12 năm 2025'. CHỈ TRÍCH XUẤT PHẦN NGÀY, bỏ qua phần địa điểm nếu có. Đảm bảo trích xuất đúng ngày tháng năm, không bao gồm thời gian trong ngày.",
+        "format": "DD/MM/YYYY in Place",
+        "example": "15/12/2025 Tại/In SINGAPORE",
+        "position": "<placeholder_5>"
+    },
+    {
+      "name": "32B: Loại tiền, số tiền/ Currency code, Amount",
+      "description": "Tổng giá trị của thư tín dụng bao gồm mã loại tiền tệ và số tiền. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về giá trị hợp đồng, tổng giá trị giao dịch, giá trị thư tín dụng, hoặc điều khoản thanh toán. Tìm kiếm các cụm từ như: 'tổng giá trị', 'total amount', 'contract value', 'giá trị hợp đồng', 'LC amount', 'letter of credit amount', 'giá trị thư tín dụng', 'số tiền', 'amount', 'currency', 'loại tiền', kèm theo số tiền cụ thể. Mã tiền tệ thường là 3 ký tự theo chuẩn ISO 4217 (ví dụ: USD, EUR, VND, SGD, JPY) và có thể xuất hiện trước hoặc sau số tiền. Số tiền có thể được viết với dấu phẩy phân cách hàng nghìn và dấu chấm cho phần thập phân (ví dụ: 449,220.00) hoặc ngược lại tùy theo quy ước địa phương. Format thường gặp: '[MÃ TIỀN] [SỐ TIỀN]' hoặc '[MÃ TIỀN][SỐ TIỀN]'. Trích xuất CẢ mã tiền tệ VÀ số tiền đầy đủ, bao gồm cả phần thập phân nếu có.",
+      "format": "mã tiền tệ 3 ký tự + số thập phân",
+      "example": "USD 449,220.00",
+      "position": "<placeholder_6>"
+    },
+    {
+      "name": "39A: Dung sai giá trị LC",
+      "description": "Dung sai phần trăm cho phép về số tiền so với tổng giá trị thư tín dụng - quy định mức độ sai số cho phép về số tiền thanh toán. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về dung sai số lượng/giá trị, điều khoản về thanh toán, hoặc điều khoản về số lượng hàng hóa. Tìm kiếm các cụm từ như: 'dung sai', 'tolerance', 'more or less', 'plus or minus', 'cho phép sai số', 'percentage tolerance', 'dung sai phần trăm', 'cho phép tăng giảm', 'X% more or less', 'X PCT', hoặc các điều khoản về việc cho phép số tiền/ số lượng có thể tăng hoặc giảm một tỷ lệ phần trăm nhất định. Format thường gặp: '+X/-Y%' (ví dụ: '+5/-5%', '+10/-10%', '+5/-0%'), '+X PCT/-Y PCT', '+X%/-Y%', hoặc 'X PCT MORE OR LESS'. Nếu không tìm thấy thông tin này trong hợp đồng, có thể để trống hoặc ghi 'N/A'. Đảm bảo trích xuất đúng cả phần dương (+) và phần âm (-) nếu có, hoặc chỉ một trong hai nếu chỉ có một mức dung sai.",
+      "format": "chuỗi ký tự",
+      "example": "+5/-5%",
+      "position": "<placeholder_8>"
+    },
+    {
+      "name": "43P: Giao hàng từng phần/ Partial shipments",
+      "description": "Quy định về việc cho phép hay không cho phép giao hàng từng phần - tức là việc chia nhỏ lô hàng thành nhiều lần giao hàng riêng biệt thay vì giao hàng một lần. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về giao hàng, điều khoản về vận chuyển, hoặc điều khoản về số lượng hàng hóa. Tìm kiếm các cụm từ như: 'giao hàng từng phần', 'partial shipments', 'partial delivery', 'cho phép giao hàng từng phần', 'không cho phép giao hàng từng phần', 'partial shipments allowed', 'partial shipments prohibited', 'partial shipments permitted', 'partial shipments not allowed', hoặc các điều khoản quy định về việc có được phép chia nhỏ lô hàng hay không. Giá trị có thể được thể hiện dưới dạng: 'cho phép', 'allowed', 'permitted', 'không cho phép', 'not allowed', 'prohibited', 'không được phép', hoặc được mô tả trong các điều khoản về giao hàng. Nếu hợp đồng không đề cập rõ ràng, có thể suy luận từ ngữ cảnh hoặc để trống.",
+      "format": "chuỗi ký tự",
+      "example": "Cho phép/ Allowed",
+      "position": "<placeholder_10>"
+    },
+    {
+      "name": "43T: Chuyển tải/ Transhipments",
+      "description": "Quy định về việc cho phép hay không cho phép chuyển tải - tức là việc chuyển hàng hóa từ phương tiện vận tải này sang phương tiện vận tải khác trong quá trình vận chuyển từ nơi xuất phát đến nơi đến cuối cùng. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về vận chuyển, điều khoản về vận tải, hoặc điều khoản về tuyến đường vận chuyển. Tìm kiếm các cụm từ như: 'chuyển tải', 'transhipment', 'transhipments', 'cho phép chuyển tải', 'không cho phép chuyển tải', 'transhipment allowed', 'transhipment prohibited', 'transhipment permitted', 'transhipment not allowed', 'chuyển tải được phép', 'chuyển tải không được phép', hoặc các điều khoản về việc có được phép chuyển hàng từ tàu/phương tiện này sang tàu/phương tiện khác hay không. Giá trị có thể được thể hiện dưới dạng: 'cho phép', 'allowed', 'permitted', 'không cho phép', 'not allowed', 'prohibited', 'không được phép'. Lưu ý phân biệt với 'giao hàng từng phần' (partial shipments) - đây là hai khái niệm khác nhau: chuyển tải là về phương tiện vận tải, còn giao hàng từng phần là về số lần giao hàng.",
+      "format": "chuỗi ký tự",
+      "example": "Cho phép/ Allowed",
+      "position": "<placeholder_11>"
+    },
+    {
+      "name": "44A: Địa điểm nhận hàng/Nơi gửi đi/ Place of Taking in Charge / Place of Receipt",
+      "description": "Địa điểm nhận hàng hoặc nơi gửi đi - đây là địa điểm đầu tiên mà người vận chuyển nhận hàng từ người gửi hàng để bắt đầu quá trình vận chuyển. Trường này áp dụng chủ yếu cho vận tải đa phương thức (multimodal transport) khi hàng hóa được vận chuyển bằng nhiều phương thức vận tải khác nhau (ví dụ: đường bộ rồi chuyển sang đường biển, hoặc đường sắt rồi chuyển sang đường hàng không). Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về vận chuyển, điều khoản về địa điểm giao nhận hàng, hoặc điều khoản về logistics. Tìm kiếm các cụm từ như: 'địa điểm nhận hàng', 'place of taking in charge', 'place of receipt', 'nơi gửi đi', 'nơi nhận hàng', 'điểm nhận hàng', 'receipt point', 'taking in charge', 'nơi bắt đầu vận chuyển', 'điểm xuất phát', hoặc các điều khoản về địa điểm đầu tiên trong chuỗi vận chuyển. Giá trị có thể là tên thành phố, cảng, sân bay, kho bãi, hoặc địa điểm cụ thể. Nếu hợp đồng chỉ có một phương thức vận tải đơn thuần (ví dụ: chỉ vận chuyển đường biển từ cảng A đến cảng B), trường này thường không áp dụng và giá trị có thể là 'N/A', 'Not Applicable', hoặc để trống. Đảm bảo trích xuất đầy đủ tên địa điểm, có thể bao gồm cả quốc gia nếu được ghi rõ.",
+      "format": "chuỗi ký tự",
+      "example": "N/A",
+      "position": "<placeholder_12>"
+    }
+  ]

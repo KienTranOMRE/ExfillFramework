@@ -1,0 +1,198 @@
+[
+    {
+      "name": "40A: Loại thư tín dụng/Form of Documentary Credit",
+      "description": "Loại thư tín dụng - quy định tính chất và đặc điểm của thư tín dụng, xác định quyền và nghĩa vụ của các bên liên quan. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về thanh toán, điều khoản về thư tín dụng, hoặc điều khoản về phương thức thanh toán. Tìm kiếm các cụm từ như: 'loại thư tín dụng', 'form of documentary credit', 'irrevocable', 'revocable', 'transferable', 'thư tín dụng không hủy ngang', 'thư tín dụng có thể hủy ngang', 'thư tín dụng có thể chuyển nhượng', 'irrevocable letter of credit', 'revocable letter of credit', hoặc các điều khoản mô tả tính chất của thư tín dụng. Các giá trị phổ biến bao gồm: 'IRREVOCABLE' (không hủy ngang - đây là loại phổ biến nhất, ngân hàng phát hành không thể hủy hoặc sửa đổi LC mà không có sự đồng ý của người hưởng lợi), 'REVOCABLE' (có thể hủy ngang - ít phổ biến, ngân hàng có thể hủy hoặc sửa đổi LC mà không cần thông báo trước), 'TRANSFERABLE' (có thể chuyển nhượng - cho phép người hưởng lợi chuyển một phần hoặc toàn bộ quyền lợi cho bên thứ ba). Có thể có sự kết hợp như 'IRREVOCABLE TRANSFERABLE'. Đảm bảo trích xuất đúng loại được chỉ định trong hợp đồng.",
+      "format": "chuỗi ký tự",
+      "example": "IRREVOCABLE",
+      "position": "<placeholder_1>"
+    },
+    {
+      "name": "Phương thức phát hành/Issuance mode",
+      "description": "Phương thức phát hành thư tín dụng - chỉ định cách thức mà thư tín dụng được phát hành và truyền đạt giữa các ngân hàng và các bên liên quan. Trong hợp đồng, thông tin này có thể được đề cập trong các điều khoản về thanh toán, điều khoản về thư tín dụng, hoặc điều khoản về phương thức giao dịch. Tìm kiếm các cụm từ như: 'phương thức phát hành', 'issuance mode', 'SWIFT', 'paper based', 'bản giấy', 'thư tín dụng SWIFT', 'thư tín dụng bản giấy', 'gửi bằng SWIFT', 'gửi bằng bản giấy', hoặc các điều khoản quy định về cách thức phát hành LC. Có hai phương thức chính: 'SWIFT' (phát hành và truyền đạt qua hệ thống SWIFT - đây là phương thức phổ biến và nhanh chóng nhất, được sử dụng cho hầu hết các giao dịch quốc tế), 'Bản giấy/Paper based' (phát hành bằng văn bản giấy, được gửi qua đường bưu điện - phương thức này ít phổ biến hơn và thường mất nhiều thời gian hơn). Trích xuất giá trị được chỉ định hoặc được đánh dấu trong hợp đồng.",
+      "format": "SWIFT hoặc Bản giấy/Paper based",
+      "example": "SWIFT",
+      "position": "<placeholder_2>"
+    },
+    {
+      "name": "50: Người yêu cầu phát hành (Tên và địa chỉ)/Applicant (Full name and address)",
+      "description": "Thông tin đầy đủ về người yêu cầu phát hành thư tín dụng - đây là bên mua hàng (buyer/importer) yêu cầu ngân hàng phát hành LC để đảm bảo thanh toán cho người bán. Trong hợp đồng, thông tin này thường xuất hiện trong phần thông tin các bên, điều khoản về bên mua, điều khoản về người mua hàng, hoặc phần đầu của hợp đồng nơi liệt kê các bên tham gia. Tìm kiếm các cụm từ như: 'người yêu cầu phát hành', 'applicant', 'buyer', 'importer', 'người mua', 'bên mua', 'purchaser', 'consignee', 'đơn vị yêu cầu', 'tên và địa chỉ người mua', 'buyer name and address', 'importer name and address', hoặc các điều khoản về thông tin của bên mua hàng. Thông tin bao gồm: tên công ty/tổ chức/cá nhân (full name), địa chỉ đầy đủ (có thể bao gồm số nhà, đường phố, quận/huyện, thành phố/tỉnh, mã bưu điện, quốc gia), có thể kèm theo mã số thuế, số điện thoại, email, mã SWIFT của ngân hàng nếu có. Trích xuất toàn bộ thông tin tên và địa chỉ, có thể trên nhiều dòng. Đảm bảo bao gồm đầy đủ các thông tin liên lạc và định danh của bên mua.",
+      "format": "chuỗi ký tự nhiều dòng",
+      "example": "N/A",
+      "position": "<placeholder_3>"
+    },
+    {
+      "name": "59: Người hưởng lợi (Tên, địa chỉ và quốc gia)/Beneficiary (Full name, address and country)",
+      "description": "Thông tin đầy đủ về người hưởng lợi thư tín dụng - đây là bên bán hàng (seller/exporter) sẽ nhận thanh toán từ LC. Trong hợp đồng, thông tin này thường xuất hiện trong phần thông tin các bên, điều khoản về bên bán, điều khoản về người bán hàng, hoặc phần đầu của hợp đồng nơi liệt kê các bên tham gia. Tìm kiếm các cụm từ như: 'người hưởng lợi', 'beneficiary', 'seller', 'exporter', 'người bán', 'bên bán', 'supplier', 'vendor', 'consignor', 'shipper', 'tên và địa chỉ người bán', 'seller name and address', 'exporter name and address', hoặc các điều khoản về thông tin của bên bán hàng. Thông tin bao gồm: tên công ty/tổ chức/cá nhân (full name), địa chỉ đầy đủ (có thể bao gồm số nhà, đường phố, quận/huyện, thành phố/tỉnh, mã bưu điện), và quốc gia (country) - đây là thông tin quan trọng để xác định nguồn gốc và quy định về xuất xứ hàng hóa. Có thể kèm theo mã số thuế, số điện thoại, email, mã SWIFT của ngân hàng nếu có. Trích xuất toàn bộ thông tin tên, địa chỉ và quốc gia, có thể trên nhiều dòng. Đảm bảo bao gồm đầy đủ các thông tin liên lạc và định danh của bên bán, đặc biệt là quốc gia.",
+      "format": "chuỗi ký tự nhiều dòng",
+      "example": "N/A",
+      "position": "<placeholder_4>"
+    },
+    {
+      "name": "31D: Ngày và nơi hết hạn/ Date and Place of Expiry",
+      "description": "Ngày hết hạn của thư tín dụng - đây là ngày cuối cùng mà người hưởng lợi có thể xuất trình chứng từ để được thanh toán theo thư tín dụng. Trong hợp đồng, thông tin này có thể được đề cập trong các điều khoản về thanh toán, thời hạn hiệu lực của thư tín dụng, hoặc điều khoản về chứng từ. Tìm kiếm các cụm từ như: 'ngày hết hạn', 'expiry date', 'thời hạn hiệu lực', 'valid until', 'expires on', 'ngày cuối cùng xuất trình', 'last presentation date', 'thời hạn xuất trình chứng từ', hoặc các điều khoản liên quan đến thời hạn thanh toán. Ngày có thể được viết theo các format: DD/MM/YYYY, DD-MM-YYYY, DD.MM.YYYY, hoặc dạng chữ như 'ngày 15 tháng 12 năm 2025'. CHỈ TRÍCH XUẤT PHẦN NGÀY, bỏ qua phần địa điểm nếu có. Đảm bảo trích xuất đúng ngày tháng năm, không bao gồm thời gian trong ngày.",
+      "format": "DD/MM/YYYY",
+      "example": "15/12/2025 Tại/In SINGAPORE",
+      "position": "<placeholder_5>"
+    },
+    {
+      "name": "32B: Loại tiền, số tiền/ Currency code, Amount",
+      "description": "Tổng giá trị của thư tín dụng bao gồm mã loại tiền tệ và số tiền. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về giá trị hợp đồng, tổng giá trị giao dịch, giá trị thư tín dụng, hoặc điều khoản thanh toán. Tìm kiếm các cụm từ như: 'tổng giá trị', 'total amount', 'contract value', 'giá trị hợp đồng', 'LC amount', 'letter of credit amount', 'giá trị thư tín dụng', 'số tiền', 'amount', 'currency', 'loại tiền', kèm theo số tiền cụ thể. Mã tiền tệ thường là 3 ký tự theo chuẩn ISO 4217 (ví dụ: USD, EUR, VND, SGD, JPY) và có thể xuất hiện trước hoặc sau số tiền. Số tiền có thể được viết với dấu phẩy phân cách hàng nghìn và dấu chấm cho phần thập phân (ví dụ: 449,220.00) hoặc ngược lại tùy theo quy ước địa phương. Format thường gặp: '[MÃ TIỀN] [SỐ TIỀN]' hoặc '[MÃ TIỀN][SỐ TIỀN]'. Trích xuất CẢ mã tiền tệ VÀ số tiền đầy đủ, bao gồm cả phần thập phân nếu có.",
+      "format": "mã tiền tệ 3 ký tự + số thập phân",
+      "example": "USD 449,220.00",
+      "position": "<placeholder_6>"
+    },
+    {
+      "name": "41D: Có giá trị xuất trình tại/ Available with",
+      "description": "Ngân hàng có quyền thanh toán hoặc chiết khấu thư tín dụng - chỉ định ngân hàng nào có thể thanh toán hoặc chiết khấu cho người hưởng lợi khi xuất trình chứng từ hợp lệ. Trong hợp đồng, thông tin này có thể được đề cập trong các điều khoản về thanh toán, điều khoản về ngân hàng thanh toán, hoặc điều khoản về thư tín dụng. Tìm kiếm các cụm từ như: 'có giá trị xuất trình tại', 'available with', 'nominated bank', 'ngân hàng thanh toán', 'paying bank', 'negotiating bank', 'chiết khấu tại', 'thanh toán tại', 'ANY BANK', 'tại bất kỳ ngân hàng nào', hoặc các điều khoản về ngân hàng được chỉ định để thanh toán. Giá trị có thể là: 'ANY BANK' hoặc 'ANY BANK IN [QUỐC GIA/KHU VỰC]' (cho phép bất kỳ ngân hàng nào trong khu vực chỉ định có thể thanh toán), hoặc tên ngân hàng cụ thể. Thường đi kèm với phương thức thanh toán như 'BY PAYMENT', 'BY ACCEPTANCE', 'BY NEGOTIATION', hoặc 'BY DEFERRED PAYMENT'. Trích xuất cả thông tin về ngân hàng và phương thức thanh toán nếu có. Nếu không có quy định cụ thể trong hợp đồng, có thể để trống hoặc ghi 'N/A'.",
+      "format": "chuỗi ký tự",
+      "example": "ANY BANK IN SINGAPORE Để/By NEGOTIATION",
+      "position": "<placeholder_7>"
+    },
+    {
+      "name": "39A: Dung sai giá trị LC",
+      "description": "Dung sai phần trăm cho phép về số tiền so với tổng giá trị thư tín dụng - quy định mức độ sai số cho phép về số tiền thanh toán. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về dung sai số lượng/giá trị, điều khoản về thanh toán, hoặc điều khoản về số lượng hàng hóa. Tìm kiếm các cụm từ như: 'dung sai', 'tolerance', 'more or less', 'plus or minus', 'cho phép sai số', 'percentage tolerance', 'dung sai phần trăm', 'cho phép tăng giảm', 'X% more or less', 'X PCT', hoặc các điều khoản về việc cho phép số tiền/ số lượng có thể tăng hoặc giảm một tỷ lệ phần trăm nhất định. Format thường gặp: '+X/-Y%' (ví dụ: '+5/-5%', '+10/-10%', '+5/-0%'), '+X PCT/-Y PCT', '+X%/-Y%', hoặc 'X PCT MORE OR LESS'. Nếu không tìm thấy thông tin này trong hợp đồng, có thể để trống hoặc ghi 'N/A'. Đảm bảo trích xuất đúng cả phần dương (+) và phần âm (-) nếu có, hoặc chỉ một trong hai nếu chỉ có một mức dung sai.",
+      "format": "chuỗi ký tự",
+      "example": "+5/-5%",
+      "position": "<placeholder_8>"
+    },
+    {
+      "name": "42C: Hối phiếu/ Drafts at",
+      "description": "Yêu cầu về hối phiếu (bill of exchange/draft) - quy định có yêu cầu người hưởng lợi xuất trình hối phiếu hay không, và nếu có thì điều kiện thanh toán như thế nào. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về thanh toán, điều khoản về phương thức thanh toán, hoặc điều khoản về chứng từ. Tìm kiếm các cụm từ như: 'hối phiếu', 'drafts', 'bill of exchange', 'yêu cầu hối phiếu', 'drafts required', 'trả ngay', 'sight', 'kỳ hạn', 'terms', 'days after', 'sight draft', 'time draft', 'usance', hoặc các điều khoản về yêu cầu xuất trình hối phiếu. Giá trị có thể là: 'Yes' hoặc 'No' (có yêu cầu hoặc không yêu cầu hối phiếu). Nếu là 'Yes', thường kèm theo: 'Trả ngay/Sight' (thanh toán ngay khi xuất trình - sight draft), hoặc 'Kỳ hạn/Terms' kèm theo số ngày cụ thể như '30 DAYS AFTER SIGHT', '60 DAYS AFTER B/L DATE', '90 DAYS AFTER DATE', v.v. (thanh toán sau một khoảng thời gian nhất định - usance/time draft). Có thể kèm theo tỷ lệ giá trị như '100% giá trị hóa đơn', '100% of invoice value', 'full invoice amount'. Trích xuất đầy đủ thông tin về yêu cầu hối phiếu và điều kiện thanh toán. Nếu hợp đồng không đề cập, có thể để trống hoặc ghi 'N/A'.",
+      "format": "chuỗi ký tự",
+      "example": "Yes Trả ngay/ Sight cho/for 100% giá trị hóa đơn/ of inv. value of goods.",
+      "position": "<placeholder_9>"
+    },
+    {
+      "name": "43P: Giao hàng từng phần/ Partial shipments",
+      "description": "Quy định về việc cho phép hay không cho phép giao hàng từng phần - tức là việc chia nhỏ lô hàng thành nhiều lần giao hàng riêng biệt thay vì giao hàng một lần. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về giao hàng, điều khoản về vận chuyển, hoặc điều khoản về số lượng hàng hóa. Tìm kiếm các cụm từ như: 'giao hàng từng phần', 'partial shipments', 'partial delivery', 'cho phép giao hàng từng phần', 'không cho phép giao hàng từng phần', 'partial shipments allowed', 'partial shipments prohibited', 'partial shipments permitted', 'partial shipments not allowed', hoặc các điều khoản quy định về việc có được phép chia nhỏ lô hàng hay không. Giá trị có thể được thể hiện dưới dạng: 'cho phép', 'allowed', 'permitted', 'không cho phép', 'not allowed', 'prohibited', 'không được phép', hoặc được mô tả trong các điều khoản về giao hàng. Nếu hợp đồng không đề cập rõ ràng, có thể suy luận từ ngữ cảnh hoặc để trống.",
+      "format": "chuỗi ký tự",
+      "example": "Cho phép/ Allowed",
+      "position": "<placeholder_10>"
+    },
+    {
+      "name": "43T: Chuyển tải/ Transhipments",
+      "description": "Quy định về việc cho phép hay không cho phép chuyển tải - tức là việc chuyển hàng hóa từ phương tiện vận tải này sang phương tiện vận tải khác trong quá trình vận chuyển từ nơi xuất phát đến nơi đến cuối cùng. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về vận chuyển, điều khoản về vận tải, hoặc điều khoản về tuyến đường vận chuyển. Tìm kiếm các cụm từ như: 'chuyển tải', 'transhipment', 'transhipments', 'cho phép chuyển tải', 'không cho phép chuyển tải', 'transhipment allowed', 'transhipment prohibited', 'transhipment permitted', 'transhipment not allowed', 'chuyển tải được phép', 'chuyển tải không được phép', hoặc các điều khoản về việc có được phép chuyển hàng từ tàu/phương tiện này sang tàu/phương tiện khác hay không. Giá trị có thể được thể hiện dưới dạng: 'cho phép', 'allowed', 'permitted', 'không cho phép', 'not allowed', 'prohibited', 'không được phép'. Lưu ý phân biệt với 'giao hàng từng phần' (partial shipments) - đây là hai khái niệm khác nhau: chuyển tải là về phương tiện vận tải, còn giao hàng từng phần là về số lần giao hàng.",
+      "format": "chuỗi ký tự",
+      "example": "Cho phép/ Allowed",
+      "position": "<placeholder_11>"
+    },
+    {
+      "name": "44A: Địa điểm nhận hàng/Nơi gửi đi/ Place of Taking in Charge / Place of Receipt",
+      "description": "Địa điểm nhận hàng hoặc nơi gửi đi - đây là địa điểm đầu tiên mà người vận chuyển nhận hàng từ người gửi hàng để bắt đầu quá trình vận chuyển. Trường này áp dụng chủ yếu cho vận tải đa phương thức (multimodal transport) khi hàng hóa được vận chuyển bằng nhiều phương thức vận tải khác nhau (ví dụ: đường bộ rồi chuyển sang đường biển, hoặc đường sắt rồi chuyển sang đường hàng không). Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về vận chuyển, điều khoản về địa điểm giao nhận hàng, hoặc điều khoản về logistics. Tìm kiếm các cụm từ như: 'địa điểm nhận hàng', 'place of taking in charge', 'place of receipt', 'nơi gửi đi', 'nơi nhận hàng', 'điểm nhận hàng', 'receipt point', 'taking in charge', 'nơi bắt đầu vận chuyển', 'điểm xuất phát', hoặc các điều khoản về địa điểm đầu tiên trong chuỗi vận chuyển. Giá trị có thể là tên thành phố, cảng, sân bay, kho bãi, hoặc địa điểm cụ thể. Nếu hợp đồng chỉ có một phương thức vận tải đơn thuần (ví dụ: chỉ vận chuyển đường biển từ cảng A đến cảng B), trường này thường không áp dụng và giá trị có thể là 'N/A', 'Not Applicable', hoặc để trống. Đảm bảo trích xuất đầy đủ tên địa điểm, có thể bao gồm cả quốc gia nếu được ghi rõ.",
+      "format": "chuỗi ký tự",
+      "example": "N/A",
+      "position": "<placeholder_12>"
+    },
+    {
+      "name": "44B: Vận chuyển đến/Nơi đến/ Place of Final Destination / Place of Delivery",
+      "description": "Địa điểm cuối cùng hoặc nơi vận chuyển đến - đây là địa điểm cuối cùng mà hàng hóa được giao cho người nhận hàng. Trường này áp dụng chủ yếu cho vận tải đa phương thức (multimodal transport) khi hàng hóa được vận chuyển bằng nhiều phương thức vận tải khác nhau và cần chỉ định địa điểm giao hàng cuối cùng, có thể khác với cảng dỡ hàng. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về vận chuyển, điều khoản về địa điểm giao nhận hàng, điều khoản về logistics, hoặc điều khoản về địa điểm đến. Tìm kiếm các cụm từ như: 'địa điểm cuối cùng', 'place of final destination', 'place of delivery', 'nơi đến cuối cùng', 'nơi giao hàng', 'delivery point', 'final destination', 'địa điểm giao hàng', 'điểm đến cuối cùng', 'nơi vận chuyển đến', hoặc các điều khoản về địa điểm cuối cùng trong chuỗi vận chuyển. Giá trị có thể là tên thành phố, cảng, sân bay, kho bãi, nhà máy, hoặc địa điểm cụ thể. Nếu hợp đồng chỉ có một phương thức vận tải đơn thuần (ví dụ: chỉ vận chuyển đường biển từ cảng A đến cảng B), trường này thường không áp dụng và giá trị có thể là 'N/A', 'Not Applicable', hoặc để trống. Đảm bảo trích xuất đầy đủ tên địa điểm, có thể bao gồm cả quốc gia nếu được ghi rõ.",
+      "format": "chuỗi ký tự",
+      "example": "N/A",
+      "position": "<placeholder_13>"
+    },
+    {
+      "name": "44E: Cảng xếp hàng/ Port of loading / Airport of Departure",
+      "description": "Cảng xếp hàng hoặc sân bay đi - đây là cảng hoặc sân bay nơi hàng hóa được xếp lên phương tiện vận tải (tàu, máy bay) để bắt đầu hành trình vận chuyển. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về vận chuyển, điều khoản về cảng xếp hàng, điều khoản về vận tải, hoặc điều khoản về logistics. Tìm kiếm các cụm từ như: 'cảng xếp hàng', 'port of loading', 'port of shipment', 'airport of departure', 'sân bay đi', 'cảng đi', 'loading port', 'port of origin', 'nơi xếp hàng', 'điểm xếp hàng', 'departure port', 'departure airport', hoặc các điều khoản về địa điểm bắt đầu vận chuyển hàng hóa. Giá trị có thể là tên cảng cụ thể (ví dụ: 'PORT OF SINGAPORE', 'SHANGHAI PORT'), hoặc phạm vi cảng (ví dụ: 'ANY PORT IN CHINA', 'ANY PORT(S) IN SOUTH AMERICAN AND/OR SOUTH AFRICA', 'ANY PORT IN VIETNAM'), hoặc tên sân bay (ví dụ: 'HANOI AIRPORT', 'HO CHI MINH CITY AIRPORT'). Có thể kèm theo quốc gia hoặc khu vực. Trích xuất đầy đủ tên cảng/sân bay và vị trí địa lý nếu có. Nếu hợp đồng cho phép nhiều lựa chọn, trích xuất tất cả các lựa chọn.",
+      "format": "chuỗi ký tự",
+      "example": "ANY PORT(S) IN SOUTH AMERICAN AND/OR SOUTH AFRICA",
+      "position": "<placeholder_14>"
+    },
+    {
+      "name": "44F: Cảng dỡ hàng/ Port of discharge / Airport of Destination",
+      "description": "Cảng dỡ hàng hoặc sân bay đến - đây là cảng hoặc sân bay nơi hàng hóa được dỡ xuống từ phương tiện vận tải (tàu, máy bay) khi đến đích. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về vận chuyển, điều khoản về cảng dỡ hàng, điều khoản về vận tải, hoặc điều khoản về logistics. Tìm kiếm các cụm từ như: 'cảng dỡ hàng', 'port of discharge', 'port of destination', 'airport of destination', 'sân bay đến', 'cảng đến', 'discharge port', 'destination port', 'destination airport', 'nơi dỡ hàng', 'điểm dỡ hàng', 'arrival port', 'arrival airport', hoặc các điều khoản về địa điểm kết thúc vận chuyển hàng hóa. Giá trị có thể là tên cảng cụ thể (ví dụ: 'PORT OF HO CHI MINH CITY', 'PHU MY PORT', 'CAI MEP PORT'), hoặc nhiều lựa chọn (ví dụ: 'PHU MY OR CAI MEP, VIETNAM', 'SINGAPORE OR HONG KONG'), hoặc tên sân bay (ví dụ: 'HANOI AIRPORT', 'HO CHI MINH CITY AIRPORT'). Có thể kèm theo quốc gia hoặc khu vực. Trích xuất đầy đủ tên cảng/sân bay và vị trí địa lý. Nếu hợp đồng cho phép nhiều lựa chọn, trích xuất tất cả các lựa chọn với từ khóa 'OR' hoặc 'AND/OR'.",
+      "format": "chuỗi ký tự",
+      "example": "PHU MY OR CAI MEP, VIETNAM",
+      "position": "<placeholder_15>"
+    },
+    {
+      "name": "44C: Ngày giao hàng muộn nhất/ The latest Date of Shipment",
+      "description": "Ngày giao hàng muộn nhất cho phép - đây là ngày cuối cùng mà hàng hóa phải được giao/xếp lên phương tiện vận tải để vận chuyển. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về giao hàng, điều khoản về thời hạn giao hàng, điều khoản về vận chuyển, hoặc điều khoản về thời gian thực hiện hợp đồng. Tìm kiếm các cụm từ như: 'ngày giao hàng muộn nhất', 'latest date of shipment', 'latest shipment date', 'ngày xếp hàng muộn nhất', 'deadline for shipment', 'shipment deadline', 'ngày cuối cùng giao hàng', 'thời hạn giao hàng', 'delivery deadline', 'on or before', hoặc các điều khoản về thời hạn chót cho việc giao hàng. Ngày có thể được viết theo các format: DD/MM/YYYY, DD-MM-YYYY, DD.MM.YYYY, hoặc dạng chữ như 'ngày 31 tháng 12 năm 2025'. Đảm bảo trích xuất đúng ngày tháng năm. Nếu hợp đồng không chỉ định ngày cụ thể mà chỉ có khoảng thời gian giao hàng (shipment period), có thể để trống hoặc ghi 'N/A' - trong trường hợp đó, thông tin sẽ nằm ở trường 44D.",
+      "format": "DD/MM/YYYY",
+      "example": "N/A",
+      "position": "<placeholder_16>"
+    },
+    {
+      "name": "44D: Thời gian giao hàng/ Shipment Period",
+      "description": "Thời gian giao hàng - khoảng thời gian cho phép giao hàng/xếp hàng lên phương tiện vận tải. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về giao hàng, điều khoản về thời hạn giao hàng, điều khoản về vận chuyển, hoặc điều khoản về thời gian thực hiện hợp đồng. Tìm kiếm các cụm từ như: 'thời gian giao hàng', 'shipment period', 'delivery period', 'thời hạn giao hàng', 'khoảng thời gian giao hàng', 'from ... to ...', 'từ ... đến ...', 'within', 'trong khoảng', 'during', 'shipment window', 'delivery window', hoặc các điều khoản mô tả khoảng thời gian cho phép giao hàng. Format thường gặp: 'FROM DD/MM/YYYY TO DD/MM/YYYY', 'FROM DD-MM-YYYY TO DD-MM-YYYY', 'TỪ ngày ... ĐẾN ngày ...', hoặc các điều kiện phức tạp như 'IF PORT OF LOADING IS IN [KHU VỰC] SHIPMENT PERIOD IS FROM ... TO ...'. Có thể có nhiều điều kiện khác nhau tùy thuộc vào cảng xếp hàng hoặc các yếu tố khác. Trong một số trường hợp, thông tin này có thể được đề cập trong điều khoản bổ sung (47A) với cú pháp 'SEE FIELD 47A' hoặc 'SEE ADDITIONAL CONDITIONS'. Trích xuất đầy đủ khoảng thời gian và các điều kiện kèm theo nếu có. Nếu thông tin nằm trong điều khoản khác, có thể ghi 'SEE FIELD 47A' hoặc trích xuất trực tiếp từ điều khoản đó.",
+      "format": "chuỗi ký tự nhiều dòng",
+      "example": "SEE FIELD 47A",
+      "position": "<placeholder_17>"
+    },
+    {
+      "name": "45A: Mô tả hàng hóa/ Description of Goods/Services",
+      "description": "Mô tả chi tiết hàng hóa hoặc dịch vụ - đây là thông tin đầy đủ về sản phẩm/dịch vụ được giao dịch trong hợp đồng. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về hàng hóa, điều khoản về mô tả hàng hóa, điều khoản về đặc tả kỹ thuật, điều khoản về số lượng và giá, hoặc phần riêng về hàng hóa/dịch vụ. Tìm kiếm các cụm từ như: 'mô tả hàng hóa', 'description of goods', 'commodity', 'hàng hóa', 'sản phẩm', 'product description', 'item description', 'specifications', 'đặc tả kỹ thuật', 'quy cách', 'packing', 'packaging', 'xuất xứ', 'origin', 'số lượng', 'quantity', 'đơn giá', 'unit price', 'tổng giá trị', 'total amount', 'INCOTERMS', 'điều kiện giao hàng', 'terms of shipment', hoặc các điều khoản về chi tiết sản phẩm. Thông tin bao gồm: tên hàng (commodity name), quy cách/đặc tả kỹ thuật (specifications, quality standards), cách đóng gói (packing/packaging), xuất xứ (origin/country of origin), số lượng (quantity) kèm đơn vị tính, đơn giá (unit price), tổng giá trị (total amount), điều kiện giao hàng (terms of shipment như FOB, CFR, CIF), INCOTERMS (nếu có), các yêu cầu về chất lượng, tiêu chuẩn, giấy chứng nhận (nếu có). Có thể có tham chiếu đến hợp đồng mua bán khác. Trích xuất toàn bộ mô tả hàng hóa một cách đầy đủ, có thể trên nhiều dòng. Đảm bảo bao gồm tất cả các thông tin liên quan đến hàng hóa/dịch vụ.",
+      "format": "chuỗi ký tự nhiều dòng",
+      "example": "- COMMODITY: CORN\n- PACKING: IN BULK\n- ORIGIN: SOUTH AMERICAN AND/OR SOUTH AFRICA AT SELLER'S OPTION\n- QUANTITY: 2,000.00 MTS (+/- 5PCT)\n- PRICE: USD 224.61/MTS\n- AMOUNT: USD 449,220.00 (+/-5PCT)\n- SPECIFICATIONS:\n    + MOISTURE: MAXIMUM 14.5PCT\n    + AFLATOXIN (B1,B2,G1,G2): MAXIMUM 20 PPB\n    + DAMAGED KERNELS: MAXIMUM 5.0PCT\n    + BROKEN KERNELS: MAXIMUM 3.0PCT\n    + FOREIGN MATTER: MAXIMUM 1.5PCT\nOTHER TERMS AND CONDITIONS AS PER SALES CONTRACT NO. S005539.0000 DATED 16TH MAY 2025\nTERM OF SHIPMENT: CFR FO, ONE SAFE BERTH ONE SAFE PORT ANY PHU MY OR CAI MEP, VIETNAM.\n\nTERMS OF SHIPMENT: CFR\n\nINCOTERMS: 2020",
+      "position": "<placeholder_18>"
+    },
+    {
+      "name": "46A: Chứng từ yêu cầu/ Documents Required",
+      "description": "Danh sách các chứng từ yêu cầu xuất trình - quy định các loại giấy tờ, chứng từ mà người hưởng lợi phải xuất trình để được thanh toán theo thư tín dụng. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về chứng từ, điều khoản về yêu cầu xuất trình chứng từ, điều khoản về thanh toán, hoặc điều khoản về thư tín dụng. Tìm kiếm các cụm từ như: 'chứng từ yêu cầu', 'documents required', 'required documents', 'chứng từ cần thiết', 'documents to be presented', 'xuất trình chứng từ', 'commercial invoice', 'hóa đơn thương mại', 'bill of lading', 'vận đơn', 'packing list', 'phiếu đóng gói', 'certificate of origin', 'giấy chứng nhận xuất xứ', 'certificate of quality', 'giấy chứng nhận chất lượng', 'weight certificate', 'giấy chứng nhận trọng lượng', 'insurance policy', 'bảo hiểm', hoặc các điều khoản về danh sách chứng từ. Các loại chứng từ phổ biến bao gồm: Commercial Invoice (hóa đơn thương mại), Bill of Lading (vận đơn), Packing List (phiếu đóng gói), Certificate of Origin (giấy chứng nhận xuất xứ), Certificate of Quality/Inspection (giấy chứng nhận chất lượng), Weight Certificate (giấy chứng nhận trọng lượng), Insurance Policy/Certificate (bảo hiểm), và các chứng từ khác. Mỗi chứng từ thường có yêu cầu về số bản gốc (originals), số bản sao (copies), người phát hành (issuer), nội dung yêu cầu, và các điều kiện đặc biệt. Trích xuất toàn bộ danh sách chứng từ và các yêu cầu chi tiết cho từng loại, có thể trên nhiều dòng. Đảm bảo bao gồm đầy đủ số lượng, yêu cầu về người phát hành, và các điều kiện đặc biệt.",
+      "format": "chuỗi ký tự nhiều dòng",
+      "example": "1. COMMERCIAL INVOICE IN 03 ORIGINALS AND 01 COPIES.\n2. FULL SET 03 ORIGINALS AND 03 NON-NEGOTIABLE COPIES OF \"CLEAN SHIPPED ON BOARD\" BILLS OF LADING MADE OUT TO ORDER OF TECHCOMBANK CHO LON BRANCH OR MADE OUT TO ORDER AND ENDORSED TO ORDER OF TECHCOMBANK CHO LON BRANCH, MARKED \"FREIGHT PREPAID\", NOTIFY THE APPLICANT.\n3. WEIGHT CERTIFICATE ISSUED BY ANY INDEPENDENT SURVEYOR IN 1 ORIGINAL AND 2 COPIES.\n4. QUALITY CERTIFICATE ISSUED BY ANY INDEPENDENT SURVEYOR IN 1 ORIGINAL AND 2 COPIES.\n5. PACKING LIST ISSUED BY SELLER IN 3 ORIGINALS AND 1 COPY.",
+      "position": "<placeholder_19>"
+    },
+    {
+      "name": "47A: Các điều khoản bổ sung/ Additional conditions",
+      "description": "Các điều khoản và điều kiện bổ sung - quy định các điều kiện đặc biệt, yêu cầu bổ sung, hoặc ngoại lệ liên quan đến thư tín dụng và chứng từ. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản bổ sung, điều khoản đặc biệt, điều khoản về ngoại lệ, điều khoản về chứng từ, hoặc các điều khoản khác không được đề cập trong các mục trước. Tìm kiếm các cụm từ như: 'điều khoản bổ sung', 'additional conditions', 'special conditions', 'additional terms', 'điều kiện đặc biệt', 'ngoại lệ', 'exceptions', 'acceptable', 'allowed', 'permitted', 'dung sai', 'tolerance', 'more or less', 'third party documents', 'chứng từ bên thứ ba', 'ngôn ngữ chứng từ', 'language of documents', 'thời hạn xuất trình', 'presentation period', 'shipment extension', 'gia hạn giao hàng', hoặc các điều khoản về các yêu cầu đặc biệt. Các điều khoản bổ sung có thể bao gồm: dung sai về số lượng/giá trị, quy định về chứng từ bên thứ ba, quy định về ngôn ngữ chứng từ, quy định về ngày phát hành chứng từ, quy định về thời hạn xuất trình, quy định về gia hạn giao hàng và mức phạt, quy định về sai sót cho phép trong chứng từ, quy định về mô tả hàng hóa, và nhiều điều khoản khác. Trong một số trường hợp, các điều khoản này có thể chứa thông tin về thời gian giao hàng (44D) hoặc thời hạn xuất trình (48). Trích xuất toàn bộ nội dung các điều khoản bổ sung một cách đầy đủ, có thể trên nhiều dòng. Đảm bảo bao gồm tất cả các điều khoản và điều kiện đặc biệt.",
+      "format": "chuỗi ký tự nhiều dòng",
+      "example": "1.  05 PERCENT MORE OR LESS IN TOTAL QUANTITY AND AMOUNT ACCEPTABLE\n2.  CHARTER PARTY B/L ACCEPTABLE\n3.  THIRD PARTY DOCUMENTS EXCEPT INVOICE AND DRAFTS ARE ACCEPTABLE.\n4.  DOCUMENTS PRESENTED LATER THAN 21 DAYS AFTER B/L DATE BUT WITHIN L/C VALIDITY ACCEPTABLE.\n5.  COMMINGLING ALLOWED. COMBINED SHIPMENT ALLOWED\n6.  DOCUMENTS (EXCEPT INVOICE) SHOWING QUANTITY IN METRIC TONS AND/OR T AND/OR TN AND/OR MT AND/OR KILOGRAMS AND/OR POUNDS ACCEPTABLE. IN CASE OF SHOWING IN POUNDS, IT MUST BE CONVERTED TO METRIC TONS EQUIVALENTLY.\n7.  DOCUMENTS DATED/ISSUED AFTER BILL OF LADING DATE IS ACCEPTABLE\n8.  DOCUMENTS SHOWING ONE OR MORE THIRD PARTIES AS SHIPPERS AND/OR EXPORTERS AND/OR CONSIGNORS ACCEPTABLE\n9.  DOCUMENTS SHOWING DESCRIPTION OF GOODS AS \"CORN\" AND/OR \"CORN GRAIN\" AND/OR \"MAIZE\" ACCEPTABLE\n10. F44D: PERIOD SHIPMENT:\n    -   +IF PORT OF LOADING IS IN SOUTH AMERICAN SHIPMENT PERIOD IS FROM 01 OCT, 2025 TO 31 OCT, 2025.\n    -   +IF PORT OF LOADING IS IN SOUTH AFRICA SHIPMENT PERIOD IS FROM 15 OCT, 2025 TO 15 NOV, 2025\n11. DOCUMENTS ISSUED IN LOCAL OFFICIAL LANGUAGE BUT WITH ENGLISH TRANSLATION ACCEPTABLE\n12. ALL MISSPELLING ERRORS IN SUBMITTED DOCUMENTS ALLOW EXCEPT INVOICE VALUE, UNIT PRICE AND COMMODITY DESCRIPTION AND QUANTITY. TYPING ERRORS THAT DO NOT AFFECT THE MEANING OF A WORD OR SENTENCE IN WHICH IN THEY OCCUR IN THE DOCUMENT SHALL NOT ENTITLE BUYERS TO REJECT DOCUMENTS OR DELAY PAYMENT.\n13. AN EXTENSION OF THE LATEST SHIPMENT DATE IS ALLOWED. SUCH EXTENSION MUST NOT BE MORE THAN 8 DAYS AND IN CASE BENEFICIARY DOES EXERCISE THIS EXTENSION, THE BENEFICIARY MAKES AN ALLOWANCE TO THE APPLICANT, WHICH TO BE DEDUCTED IN INVOICE AS FOLLOWS:\n    -   + 0.5PCT OF THE INVOICE AMOUNT FOR 1, 2, 3 OR 4 ADDITIONAL DAYS.\n    -   + 1.0PCT OF THE INVOICE AMOUNT FOR 5 OR 6 ADDITIONAL DAYS\n    -   + 1.5PCT OF THE INVOICE AMOUNT FOR 7 OR 8 ADDITIONAL DAYS\n    IN THIS CASE, LATE SHIPMENT IS NOT TREATED AS DISCREPANCIES AND THE L/C VALIDITY WILL THEN AUTOMATICALLY BE EXTENDED BY THE SAME NUMBER OF DAYS THAT THE SHIPMENT IS DELAYED. L/C AMENDMENT IS NOT REQUIRED.\n14. QUALITY DEFICIENCY (IF ANY) IS CALCULATED BASIS THE NET AMOUNT AFTER DEDUCTION OF THE ABOVE SHIPMENT EXTENSION ALLOWANCE.\n15. DOCUMENTS DATED PRIOR TO THE L/C OPENING DATE ACCEPTABLE\n16. INVOICE AMOUNT LOWER THAN LC TOLERANCE DUE TO DEDUCTION OF LATE SHIPMENT PENALTY AND/OR QUALITY REBATE IS ACCEPTABLE\n\nMã hiệu: MB02.1-QT.TDC/49 Lần ban hành/sửa đổi: 02/00 Trang 3 / 7\n\nTECHCOMBANK\n\n1.  ALL DOCUMENTS INCLUDING B/L IF DESTINATION SHOW PORT OF DISCHARGE AS \"CAI MEP AND/OR PHU MY, VIETNAM\" IS ACCEPTABLE\n2.  ALL DOCUMENTS EXCEPT SIGHT DRAFT AND COMMERCIAL INVOICE NOT TO INDICATE L/C NUMBER AND DATE\n3.  QUALITY CERTIFICATE SHOWS AFLATOXIN AS \"AFLATOXIN\" OR \"AFLATOXIN (B1,B2,G1,G2)\" OR \"AFLATOXIN TOTAL\" ACCEPTABLE",
+      "position": "<placeholder_20>"
+    },
+    {
+      "name": "48: Thời hạn xuất trình/ Period for Presentation",
+      "description": "Thời hạn xuất trình chứng từ sau ngày giao hàng - quy định khoảng thời gian tối đa mà người hưởng lợi phải xuất trình chứng từ sau khi hàng hóa đã được giao. Trong hợp đồng, thông tin này thường xuất hiện trong các điều khoản về chứng từ, điều khoản về thời hạn xuất trình, điều khoản về thanh toán, hoặc điều khoản bổ sung. Tìm kiếm các cụm từ như: 'thời hạn xuất trình', 'period for presentation', 'presentation period', 'thời hạn xuất trình chứng từ', 'days after shipment', 'days after B/L date', 'days after shipment date', 'ngày sau khi giao hàng', 'ngày sau ngày vận đơn', 'within X days', 'trong vòng X ngày', hoặc các điều khoản về thời hạn chót để xuất trình chứng từ. Format thường gặp: 'X DAYS AFTER SHIPMENT DATE', 'X DAYS AFTER B/L DATE', 'X DAYS AFTER DATE OF SHIPMENT', 'WITHIN X DAYS OF SHIPMENT', hoặc số ngày cụ thể kèm theo điều kiện. Thông thường là 15, 21, hoặc 30 ngày sau ngày giao hàng. Trong một số trường hợp, thông tin này có thể được đề cập trong điều khoản bổ sung (47A) với cú pháp 'SEE FIELD 47A' hoặc 'SEE ADDITIONAL CONDITIONS'. Nếu thông tin nằm trong điều khoản khác, có thể ghi 'SEE FIELD 47A' hoặc trích xuất trực tiếp từ điều khoản đó. Đảm bảo trích xuất số ngày và điều kiện kèm theo (ví dụ: 'sau ngày giao hàng', 'sau ngày vận đơn').",
+      "format": "chuỗi ký tự",
+      "example": "SEE FIELD 47A",
+      "position": "<placeholder_21>"
+    },
+    {
+      "name": "78: Điều khoản đặc biệt/ Special Clause",
+      "description": "Toàn bộ nội dung ô '78: Điều khoản đặc biệt/ Special Clause', bao gồm: (1) Nội dung điều khoản đặc biệt cho ngân hàng thanh toán, và (2) Yêu cầu thanh toán bằng điện (TT Reimbursement Claim) với giá trị 'Cho phép/Allowed' hoặc 'Không cho phép/Not allowed' dựa vào ô được đánh dấu.",
+      "format": "chuỗi ký tự nhiều dòng",
+      "example": "Yêu cầu thanh toán bằng điện\nTT Reimbursement Claim\n Không cho phép/Not allowed",
+      "position": "<placeholder_22>"
+    },
+    {
+      "name": "49: Xác nhận LC/ Confirmation Instruction",
+      "description": "Hướng dẫn xác nhận LC (Confirmation Instruction), nằm trong mục '49: Xác nhận LC/ Confirmation Instruction'. Giá trị: WITHOUT, CONFIRM, MAY ADD.",
+      "format": "chuỗi ký tự",
+      "example": "MAY ADD",
+      "position": "<placeholder_23>"
+    },
+    {
+      "name": "57D: Ngân hàng thông báo (Tên và địa chỉ)/ Advising Bank (Full name and address)",
+      "description": "Tên và địa chỉ đầy đủ của ngân hàng thông báo LC (Advising Bank), nằm trong mục '57D: Ngân hàng thông báo (Tên và địa chỉ)/ Advising Bank (Full name and address)'.",
+      "format": "chuỗi ký tự nhiều dòng",
+      "example": "CHASSGSGXXX",
+      "position": "<placeholder_24>"
+    },
+    {
+      "name": "53A: Ngân hàng hoàn trả (Tên và địa chỉ)/ Reimbursing Bank (Full name and address)",
+      "description": "Tên và địa chỉ của ngân hàng hoàn trả (Reimbursing Bank), nằm trong mục '53A: Ngân hàng hoàn trả (Tên và địa chỉ)/ Reimbursing Bank (Full name and address)'.",
+      "format": "chuỗi ký tự nhiều dòng",
+      "example": "N/A",
+      "position": "<placeholder_25>"
+    },
+    {
+      "name": "Ngân hàng xác nhận (Tên và địa chỉ)/ Confirming Bank (Full name and address)",
+      "description": "Tên và địa chỉ của ngân hàng xác nhận LC (Confirming Bank), nằm trong mục 'Ngân hàng xác nhận (Tên và địa chỉ)/ Confirming Bank (Full name and address)'. Chỉ có khi LC yêu cầu xác nhận (49: Confirm hoặc May Add).",
+      "format": "chuỗi ký tự nhiều dòng",
+      "example": "ANY BANK IN SINGAPORE",
+      "position": "<placeholder_26>"
+    },
+    {
+      "name": "Ngân hàng chuyển nhượng (Tên và địa chỉ)/ Transferring Bank (Full name and address)",
+      "description": "Tên và địa chỉ của ngân hàng chuyển nhượng LC (Transferring Bank), nằm trong mục 'Ngân hàng chuyển nhượng (Tên và địa chỉ)/ Transferring Bank (Full name and address)'.",
+      "format": "chuỗi ký tự nhiều dòng",
+      "example": "N/A",
+      "position": "<placeholder_27>"
+    },
+    {
+      "name": "71B: Phí/ Charges",
+      "description": "Quy định về phí ngân hàng (Charges), nằm trong mục '71B: Phí/ Charges'. Mô tả chi tiết ai chịu phí gì (phí ngoài Việt Nam, phí hoàn trả, phí xác nhận, v.v.).",
+      "format": "chuỗi ký tự nhiều dòng",
+      "example": "Khác/ Other: ALL BANKING CHARGES OF THE ISSUING BANK, INCLUDING ALL BANK CHARGES OF ITS NOMINATED REIMBURSEMENT BANK AND CORRESPONDENT BANK ARE FOR APPLICANT'S ACCOUNT. ALL BENEFICIARY'S BANK CHARGE ARE FOR BENEFICIARY'S ACCOUNT. CONFIRMATION FEE (IF ANY) ARE FOR BENEFICIARY'S ACCOUNT",
+      "position": "<placeholder_28>"
+    }
+  ]
