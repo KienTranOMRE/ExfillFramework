@@ -2,8 +2,7 @@ import os
 from typing import Optional
 from .base import OCRServiceBase
 from .gemini_service import GeminiOCRService
-from .openai_service import OpenAIOCRService
-from .ocrspace_service import OCRSpaceService
+from .chandra_service import ChandraOCRService
 
 
 class OCRServiceFactory:
@@ -14,8 +13,7 @@ class OCRServiceFactory:
     # Available OCR services
     SERVICES = {
         'gemini': GeminiOCRService,
-        'openai': OpenAIOCRService,
-        'ocrspace': OCRSpaceService,
+        'chandra': ChandraOCRService,
     }
 
     @classmethod
@@ -26,7 +24,7 @@ class OCRServiceFactory:
         Args:
             service_name: Name of the OCR service to use. If not provided,
                          will use OCR_SERVICE from environment, defaulting to 'gemini'.
-                         Available services: 'gemini', 'openai', 'ocrspace'
+                         Available services: 'gemini', 'chandra'
 
         Returns:
             An instance of the requested OCR service
@@ -80,7 +78,7 @@ class OCRServiceFactory:
     @classmethod
     def get_service_info(cls) -> dict:
         """
-        Get information about all available services.
+        Get information about available OCR services.
 
         Returns:
             Dictionary with service information
@@ -92,16 +90,10 @@ class OCRServiceFactory:
                 'dependencies': ['google-generativeai'],
                 'description': 'Google Gemini API with advanced vision capabilities'
             },
-            'openai': {
-                'name': 'OpenAI Vision',
-                'env_var': 'OPENAI_API_KEY',
-                'dependencies': ['openai', 'pdf2image', 'pillow'],
-                'description': 'OpenAI GPT-4 Vision API'
-            },
-            'ocrspace': {
-                'name': 'OCR.space',
-                'env_var': 'OCRSPACE_API_KEY',
+            'chandra': {
+                'name': 'Chandra OCR',
+                'env_var': 'CHANDRA_API_URL',
                 'dependencies': ['requests'],
-                'description': 'OCR.space API (free tier available)'
+                'description': 'Chandra OCR API service (default: http://localhost:8000)'
             }
         }

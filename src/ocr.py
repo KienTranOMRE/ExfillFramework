@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 from typing import Optional
 from dotenv import load_dotenv
-from ocr_services import OCRServiceFactory
+from ocr_service import OCRServiceFactory
 
 # Load environment variables
 load_dotenv()
@@ -15,7 +15,7 @@ def ocr(pdf_file_path: str, service: Optional[str] = None) -> str:
 
     Args:
         pdf_file_path: Path to the PDF file
-        service: OCR service to use ('gemini', 'openai', 'ocrspace').
+        service: OCR service to use ('gemini' or 'chandra').
                 If not provided, uses OCR_SERVICE from environment (default: 'gemini')
 
     Returns:
@@ -40,7 +40,7 @@ def ocr_and_save(pdf_file_path: str, output_dir: str = None, service: Optional[s
     Args:
         pdf_file_path: Path to the PDF file
         output_dir: Directory to save the output JSON file (default: same directory as PDF)
-        service: OCR service to use ('gemini', 'openai', 'ocrspace').
+        service: OCR service to use ('gemini' or 'chandra').
                 If not provided, uses OCR_SERVICE from environment (default: 'gemini')
 
     Returns:
@@ -92,8 +92,8 @@ def list_available_services():
         print(f"  Description: {info['description']}")
 
     print("\n" + "=" * 60)
-    print("\nTo use a service, set OCR_SERVICE environment variable")
-    print("Example: OCR_SERVICE=openai")
+    print("\nTo use the OCR service, set OCR_SERVICE environment variable")
+    print("Example: OCR_SERVICE=gemini")
 
 
 if __name__ == "__main__":
@@ -108,10 +108,10 @@ if __name__ == "__main__":
     output_dir = "/Users/kientran8/Codes/ExfillFramework/data/output"
     pdf_path = "/Users/kientran8/Codes/ExfillFramework/data/input/Input_test1.pdf"
 
+    # Uses Gemini OCR service by default.
     # You can specify which service to use:
-    # - Pass service parameter: ocr_and_save(pdf_path, output_dir, service='openai')
-    # - Or set OCR_SERVICE environment variable in .env file
-    # - Defaults to 'gemini' if not specified
+    # - Pass service parameter: ocr_and_save(pdf_path, output_dir, service='chandra')
+    # - Or set OCR_SERVICE environment variable in .env file (e.g., OCR_SERVICE=chandra)
 
     try:
         # Perform OCR and save to JSON

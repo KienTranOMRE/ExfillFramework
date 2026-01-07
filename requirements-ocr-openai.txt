@@ -1,4 +1,0 @@
-# Dependencies for OpenAI Vision OCR service
-openai
-pdf2image
-pillow
